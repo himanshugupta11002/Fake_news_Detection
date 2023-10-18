@@ -1,2 +1,2 @@
 # Fake_news_Detection
-an open source program condected by omdena
+an open source program conducted by omdena
