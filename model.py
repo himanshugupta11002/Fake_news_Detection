@@ -113,8 +113,7 @@ from sklearn.metrics import classification_report
 print(classification_report(y_test,y_pred_classes))
 
 import pickle
-
-filename = 'FakeNewsClassifier.sav'
-with open(filename, 'wb') as file:
-    pickle.dump(model1, file)
+pickle_out = open("classifier.pkl","wb")
+pickle.dump(classifier,pickle_out)
+pickle_out.close()
     
